@@ -19,18 +19,23 @@ body {
 }
 #rb1 {
   position: relative;
+  width: fit-content;
 }
 #rb2 {
   position: relative;
+  width: fit-content;
 }
 #rb3 {
   position: relative;
+  width: fit-content;
 }
 #rb4 {
   position: relative;
+  width: fit-content;
 }
 #rb5 {
   position: relative;
+  width: fit-content;
 }
 
 .ripple {
