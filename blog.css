@@ -1,0 +1,45 @@
+* {
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  -webkit-tap-highlight-color: transparent;
+}
+.blogcon {
+  position: relative;
+}
+.blogcon::-webkit-scrollbar {
+  height: 0px;
+}
+
+.blogcon::-webkit-scrollbar-track {
+  border-radius: 0px;
+}
+.blogcon::-webkit-scrollbar-thumb {
+  width: 20px;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0);
+}
+
+.blogspot {
+  position: relative;
+}
+.framebox {
+  position: relative;
+}
+#homebutton {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 40px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  z-index: 1;
+}
+#homebutton a {
+  text-decoration: none;
+}
+.bhome {
+  margin-top: 7px;
+}
